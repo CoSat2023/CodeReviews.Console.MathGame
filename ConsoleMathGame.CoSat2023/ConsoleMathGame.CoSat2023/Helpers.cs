@@ -37,8 +37,6 @@ internal class Helpers
     }
     internal static void PrintGames()
     {
-        //var gamesToPrint = games.Where(x => x.Date > new DateTime(2025, 06, 04)).OrderByDescending(x => x.Score);
-
         Console.Clear();
         Console.WriteLine("Games History");
         Console.WriteLine("---------------------");
